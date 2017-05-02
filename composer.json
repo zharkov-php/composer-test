@@ -1,0 +1,21 @@
+{
+    "name": "zharkov-php/composer-my-first-packet",
+    "description": "My first packet",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Zharkov Andrey",
+            "email": "zharkov.php@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "zharkov\\parser\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
